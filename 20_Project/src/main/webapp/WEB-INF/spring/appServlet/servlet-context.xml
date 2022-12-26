@@ -56,5 +56,7 @@
 		<beans:constructor-arg name="sqlSessionFactory"
 			ref="sqlSessionFactory" />
 	</beans:bean>
-
+	<beans:bean id="so" class="com.hg.pj.sns.SiteOption">
+	<beans:constructor-arg value="3"></beans:constructor-arg>
+	</beans:bean>
 </beans:beans>
